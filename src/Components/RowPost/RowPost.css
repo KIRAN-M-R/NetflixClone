@@ -9,13 +9,21 @@
     overflow-y: hidden;
 }
 .poster{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
 }
 .smallPoster{
+    cursor: pointer;
     max-height: 150px;
     margin-right: 10px;
 }
 .posters::-webkit-scrollbar{
     display: none;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.smallPoster:hover{
+    transform: scale(1.1);
 }
